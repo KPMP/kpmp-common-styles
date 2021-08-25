@@ -1,0 +1,24 @@
+{
+  "name": "kpmp-common-styles",
+  "version": "1.0.0",
+  "description": "The stylesheets used across the KPMP applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KPMP/kpmp-common-styles.git"
+  },
+  "keywords": [
+    "KPMP",
+    "stylesheets",
+    "css"
+  ],
+  "author": "Alex Barkell (albarkel@med.umich.edu)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KPMP/kpmp-common-styles/issues"
+  },
+  "homepage": "https://github.com/KPMP/kpmp-common-styles#readme"
+}

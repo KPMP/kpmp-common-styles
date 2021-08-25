@@ -10,10 +10,19 @@ $ npm i sass -g
 
 ## Usage
 
-Import the component
+There are a couple ways to use this library:
+
+1. Import the compiled index.css onto a react page
 ```
-import "kpmp-common-styles/index.css";
+import "kpmp-common-styles/dist/index.css";
 ```
+
+2. Import the uncompiled sass into another sass file to allow the application library to handle sass compilation
+```
+@import "../node_modules/kpmp-common-styles/common-values.scss";
+```
+
+
 
 
 ## To modify
@@ -21,5 +30,5 @@ import "kpmp-common-styles/index.css";
 Make any changes inside of the .scss files and then convert the .scss to .css using the following command:
 
 ```
-$ sass index.scss index.css
+$ sass index.scss dist/index.css
 ```

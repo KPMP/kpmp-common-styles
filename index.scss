@@ -1,5 +1,7 @@
+@import "common-values.scss";
+
 .testclass {
-    color: #00ff00;
+    color: $link-blue;
     background-color: #0000ff;
     font-size: 24px;
   }

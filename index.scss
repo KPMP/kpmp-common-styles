@@ -1,27 +1,38 @@
 @import "common-values.scss";
+@import "./assets/font-awesome-6/fontawesome.scss";
+@import "./assets/font-awesome-6/regular.scss";
+@import "./assets/font-awesome-6/solid.scss";
 
 body {
-    background-color: $kpmp-gray;
+  background-color: $kpmp-gray;
+  font-size: 16px;
 }
 a {
-    color: $link-blue;
-    text-decoration: none;
+  color: $link-blue;
+  text-decoration: none;
 }
 
 a:hover {
-    color: red;
-    text-decoration: underline;
+  color: $link-blue-hover;
+  text-decoration: underline;
 }
 
 #navbar .navbar-brand img.logo {
-    width: 80px;
-    min-width: 80px;
+  width: 80px;
+  min-width: 80px;
 }
 
 #navbar {
-  background-color: red !important;
+  background-color: $kpmp-gray;
   border-bottom: 1px solid #d8d8d8;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  padding-right: 4px !important;
+  padding-left: 4px !important;
+
+  #title-text {
+    display: block !important;
+  }
+
 
   .nav-item.active {
     .nav-text {
@@ -57,5 +68,9 @@ a:hover {
     a:hover {
       text-decoration: none !important;
     }
+  }
+  .far.fa-question-circle,
+  .icon-container {
+    font-size: 25px;
   }
 }

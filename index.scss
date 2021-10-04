@@ -1,6 +1,61 @@
 @import "common-values.scss";
 
+body {
+    background-color: $kpmp-gray;
+}
+a {
+    color: $link-blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
 #navbar .navbar-brand img.logo {
     width: 80px;
     min-width: 80px;
+}
+
+#navbar {
+  background-color: red !important;
+  border-bottom: 1px solid #d8d8d8;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+
+  .nav-item.active {
+    .nav-text {
+      @media (max-width: 576px) {
+        padding-bottom: 5px;
+      }
+      padding-bottom: 12px;
+      margin-bottom: -6px;
+      content: " ";
+    }
+  }
+
+  .navbar-brand img.logo {
+    width: 80px;
+    min-width: 80px;
+  }
+
+  .navbar-brand {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+
+  .active .nav-link {
+    color: #0082f3 !important;
+    font-weight: 600;
+  }
+
+  .nav-link:hover {
+    color: #0275d8 !important;
+  }
+
+  #nav-user-dropdown-menu {
+    a:hover {
+      text-decoration: none !important;
+    }
+  }
 }

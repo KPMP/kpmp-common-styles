@@ -116,3 +116,48 @@ a:hover {
   padding: 0;
   background-color: transparent;
 }
+
+#oops-content {
+  margin-top: 150px;
+
+  .oops-big {
+    font-size: 72px;
+  }
+
+  .oops-small {
+    font-size: 32px;
+  }
+
+  #oops-image {
+    width: 385px;
+    height: 330px;
+  }
+}
+
+#not-found-page {
+  padding: 20px;
+  background-color: $kpmp-gray;
+
+  .not-found-image {
+    max-width: 90%;
+    margin-top: 30px;
+    margin-right: 40px;
+  }
+
+  .not-found-container {
+    max-width: 60%;
+    margin: auto;
+  }
+
+  .not-found-text {
+    padding-top: 30px;
+
+    .not-found-regular {
+      font-size: 32px;
+    }
+
+    .not-found-small {
+      font-size: 24px;
+    }
+  }
+}

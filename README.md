@@ -14,7 +14,7 @@ There are a couple ways to use this library:
 
 1. Import the compiled index.css onto a react page
 ```
-import "kpmp-common-styles/dist/index.css";
+import "kpmp-common-styles/index.css";
 ```
 
 2. Import the uncompiled sass into another sass file to allow the application library to handle sass compilation

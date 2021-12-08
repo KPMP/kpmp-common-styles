@@ -1,6 +1,6 @@
 {
   "name": "kpmp-common-styles",
-  "version": "1.0.9",
+  "version": "1.0.11",
   "description": "The stylesheets used across the KPMP applications",
   "main": "index.js",
   "scripts": {

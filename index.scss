@@ -1,7 +1,4 @@
 @import "common-values.scss";
-@import "./assets/font-awesome-6/fontawesome.scss";
-@import "./assets/font-awesome-6/regular.scss";
-@import "./assets/font-awesome-6/solid.scss";
 
 body {
   background-color: $kpmp-gray;
@@ -56,7 +53,9 @@ a:hover {
     padding-top: 0px !important;
     padding-bottom: 0px !important;
   }
-
+  .nav-link .nav-icon {
+    padding: 0.8rem 2rem;
+  }
   .active .nav-link {
     color: #0082f3 !important;
     font-weight: 600;
@@ -72,7 +71,8 @@ a:hover {
     }
   }
   .far.fa-question-circle,
-  .icon-container {
+  .icon-container,
+  .help-icon{
     font-size: 25px;
   }
 }
